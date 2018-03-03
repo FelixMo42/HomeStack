@@ -17,6 +17,7 @@
 		47873574204B1D0D00105766 /* GoogleService-Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = 47873573204B1D0D00105766 /* GoogleService-Info.plist */; };
 		47873576204B1E4E00105766 /* Podfile in Resources */ = {isa = PBXBuildFile; fileRef = 47873575204B1E4E00105766 /* Podfile */; };
 		65AD88C6204B3BA3003334AC /* EnrolledClass.swift in Sources */ = {isa = PBXBuildFile; fileRef = 65AD88C5204B3BA3003334AC /* EnrolledClass.swift */; };
+		65AD88C8204B485F003334AC /* ChatViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 65AD88C7204B485F003334AC /* ChatViewController.swift */; };
 		C5C1968FD39CD3B78CA1DDBD /* Pods_HomeStack.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 463DD9430DEBC10065DB81BB /* Pods_HomeStack.framework */; };
 /* End PBXBuildFile section */
 
@@ -55,6 +56,7 @@
 		47873573204B1D0D00105766 /* GoogleService-Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = "GoogleService-Info.plist"; sourceTree = "<group>"; };
 		47873575204B1E4E00105766 /* Podfile */ = {isa = PBXFileReference; lastKnownFileType = text; path = Podfile; sourceTree = SOURCE_ROOT; };
 		65AD88C5204B3BA3003334AC /* EnrolledClass.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = EnrolledClass.swift; sourceTree = "<group>"; };
+		65AD88C7204B485F003334AC /* ChatViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ChatViewController.swift; sourceTree = "<group>"; };
 		8728B7315CC484C19A72BADE /* Pods-HomeStack.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-HomeStack.debug.xcconfig"; path = "Pods/Target Support Files/Pods-HomeStack/Pods-HomeStack.debug.xcconfig"; sourceTree = "<group>"; };
 		B2E31A7005755B8CC9251326 /* Pods-HomeStack.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-HomeStack.release.xcconfig"; path = "Pods/Target Support Files/Pods-HomeStack/Pods-HomeStack.release.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
@@ -123,6 +125,7 @@
 				47873541204B1AF000105766 /* AppDelegate.swift */,
 				47873543204B1AF000105766 /* RootViewController.swift */,
 				65AD88C5204B3BA3003334AC /* EnrolledClass.swift */,
+				65AD88C7204B485F003334AC /* ChatViewController.swift */,
 				47873573204B1D0D00105766 /* GoogleService-Info.plist */,
 				47873549204B1AF000105766 /* Main.storyboard */,
 				4787354C204B1AF000105766 /* Assets.xcassets */,
@@ -361,6 +364,7 @@
 			files = (
 				47873544204B1AF000105766 /* RootViewController.swift in Sources */,
 				65AD88C6204B3BA3003334AC /* EnrolledClass.swift in Sources */,
+				65AD88C8204B485F003334AC /* ChatViewController.swift in Sources */,
 				47873542204B1AF000105766 /* AppDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;

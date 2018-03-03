@@ -121,17 +121,17 @@
                     <navigationItem key="navigationItem" id="kdE-1n-sg8"/>
                     <connections>
                         <outlet property="allClasses" destination="PRe-hQ-3Hp" id="qO4-nl-uve"/>
-                        <segue destination="egn-9o-Ve4" kind="show" id="70n-ao-odq"/>
+                        <segue destination="egn-9o-Ve4" kind="show" identifier="rootToChat" id="70n-ao-odq"/>
                     </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="Rzh-Ve-RAE" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
             <point key="canvasLocation" x="472.80000000000001" y="-198.35082458770617"/>
         </scene>
-        <!--View Controller-->
+        <!--Chat View Controller-->
         <scene sceneID="ne9-Rq-x6M">
             <objects>
-                <viewController id="egn-9o-Ve4" sceneMemberID="viewController">
+                <viewController id="egn-9o-Ve4" customClass="ChatViewController" customModule="HomeStack" customModuleProvider="target" sceneMemberID="viewController">
                     <view key="view" contentMode="scaleToFill" id="kZz-ff-xht">
                         <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
