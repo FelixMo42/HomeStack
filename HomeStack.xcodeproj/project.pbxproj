@@ -9,8 +9,6 @@
 /* Begin PBXBuildFile section */
 		47873542204B1AF000105766 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 47873541204B1AF000105766 /* AppDelegate.swift */; };
 		47873544204B1AF000105766 /* RootViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 47873543204B1AF000105766 /* RootViewController.swift */; };
-		47873546204B1AF000105766 /* DataViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 47873545204B1AF000105766 /* DataViewController.swift */; };
-		47873548204B1AF000105766 /* ModelController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 47873547204B1AF000105766 /* ModelController.swift */; };
 		4787354B204B1AF000105766 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 47873549204B1AF000105766 /* Main.storyboard */; };
 		4787354D204B1AF000105766 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 4787354C204B1AF000105766 /* Assets.xcassets */; };
 		47873550204B1AF000105766 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 4787354E204B1AF000105766 /* LaunchScreen.storyboard */; };
@@ -18,6 +16,7 @@
 		47873566204B1AF000105766 /* HomeStackUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 47873565204B1AF000105766 /* HomeStackUITests.swift */; };
 		47873574204B1D0D00105766 /* GoogleService-Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = 47873573204B1D0D00105766 /* GoogleService-Info.plist */; };
 		47873576204B1E4E00105766 /* Podfile in Resources */ = {isa = PBXBuildFile; fileRef = 47873575204B1E4E00105766 /* Podfile */; };
+		65AD88C6204B3BA3003334AC /* EnrolledClass.swift in Sources */ = {isa = PBXBuildFile; fileRef = 65AD88C5204B3BA3003334AC /* EnrolledClass.swift */; };
 		C5C1968FD39CD3B78CA1DDBD /* Pods_HomeStack.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 463DD9430DEBC10065DB81BB /* Pods_HomeStack.framework */; };
 /* End PBXBuildFile section */
 
@@ -43,8 +42,6 @@
 		4787353E204B1AF000105766 /* HomeStack.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = HomeStack.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		47873541204B1AF000105766 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		47873543204B1AF000105766 /* RootViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RootViewController.swift; sourceTree = "<group>"; };
-		47873545204B1AF000105766 /* DataViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DataViewController.swift; sourceTree = "<group>"; };
-		47873547204B1AF000105766 /* ModelController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ModelController.swift; sourceTree = "<group>"; };
 		4787354A204B1AF000105766 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		4787354C204B1AF000105766 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		4787354F204B1AF000105766 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
@@ -57,6 +54,7 @@
 		47873567204B1AF000105766 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		47873573204B1D0D00105766 /* GoogleService-Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = "GoogleService-Info.plist"; sourceTree = "<group>"; };
 		47873575204B1E4E00105766 /* Podfile */ = {isa = PBXFileReference; lastKnownFileType = text; path = Podfile; sourceTree = SOURCE_ROOT; };
+		65AD88C5204B3BA3003334AC /* EnrolledClass.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = EnrolledClass.swift; sourceTree = "<group>"; };
 		8728B7315CC484C19A72BADE /* Pods-HomeStack.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-HomeStack.debug.xcconfig"; path = "Pods/Target Support Files/Pods-HomeStack/Pods-HomeStack.debug.xcconfig"; sourceTree = "<group>"; };
 		B2E31A7005755B8CC9251326 /* Pods-HomeStack.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-HomeStack.release.xcconfig"; path = "Pods/Target Support Files/Pods-HomeStack/Pods-HomeStack.release.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
@@ -124,8 +122,7 @@
 			children = (
 				47873541204B1AF000105766 /* AppDelegate.swift */,
 				47873543204B1AF000105766 /* RootViewController.swift */,
-				47873545204B1AF000105766 /* DataViewController.swift */,
-				47873547204B1AF000105766 /* ModelController.swift */,
+				65AD88C5204B3BA3003334AC /* EnrolledClass.swift */,
 				47873573204B1D0D00105766 /* GoogleService-Info.plist */,
 				47873549204B1AF000105766 /* Main.storyboard */,
 				4787354C204B1AF000105766 /* Assets.xcassets */,
@@ -363,8 +360,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				47873544204B1AF000105766 /* RootViewController.swift in Sources */,
-				47873548204B1AF000105766 /* ModelController.swift in Sources */,
-				47873546204B1AF000105766 /* DataViewController.swift in Sources */,
+				65AD88C6204B3BA3003334AC /* EnrolledClass.swift in Sources */,
 				47873542204B1AF000105766 /* AppDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
