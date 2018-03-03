@@ -12,7 +12,7 @@ import Material
 class RootViewController: UIViewController, UIScrollViewDelegate, UICollectionViewDelegate, UICollectionViewDataSource, UICollectionViewDelegateFlowLayout {
     
     @IBOutlet weak var allClasses: UICollectionView!
-    
+    let screenSize = UIScreen.main.bounds
     var allColors:[UIColor] = [Color.green.darken1, Color.blue.darken1, Color.red.darken1,Color.yellow.darken1,Color.orange.darken1,Color.purple.darken1]
     
 
@@ -61,12 +61,15 @@ class RootViewController: UIViewController, UIScrollViewDelegate, UICollectionVi
     
     func collectionView(_ collectionView: UICollectionView, layout collectionViewLayout: UICollectionViewLayout, sizeForItemAt indexPath: IndexPath) -> CGSize
     {
-        return CGSize(width: 400, height: 120)
+        return CGSize(width: screenSize.width - 15, height: 120)
     }
+    
+
     
     
     func collectionView(_ collectionView: UICollectionView, didSelectItemAt indexPath: IndexPath) {
-        
+        self.performSegue(withIdentifier: "rootToChat", sender: self)
+        current.selectedClass = enrolledClasses[indexPath.row].name
     }
     
     override func viewDidLoad() {

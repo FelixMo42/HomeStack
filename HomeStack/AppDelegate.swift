@@ -9,6 +9,12 @@
 import UIKit
 import Firebase
 
+struct current {
+    
+    static var selectedClass = ""
+    
+}
+
 @UIApplicationMain
 class AppDelegate: UIResponder, UIApplicationDelegate {
 
