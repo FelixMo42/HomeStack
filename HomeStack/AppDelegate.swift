@@ -9,10 +9,9 @@
 import UIKit
 import Firebase
 
-struct current {
-    
-    static var selectedClass = ""
-    
+struct current { //current.selectedClass
+    static var selectedClass: Class = Class(name: "",teacher: "",period: 0)
+    static var login = true
 }
 
 @UIApplicationMain
